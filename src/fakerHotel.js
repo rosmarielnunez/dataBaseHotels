@@ -20,11 +20,11 @@ const createLitsHotels = () => {
     return hotels;
 }
 
-const createDBHotels = () => {
+const createDataHotels = () => {
     const data = {
         hotels: createLitsHotels(),
     }
     fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
 };
 
-createDBHotels();
+createDataHotels();
