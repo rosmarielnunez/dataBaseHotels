@@ -1,1 +1,1 @@
-Data base Hotel fake created to practice
+Database Hotel fake created to practice
